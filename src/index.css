@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,600;0,700;1,400&display=swap');
+html,body,
+#root,.app,.content {
+  height:100%;
+  width:100%;
+  font-family: 'Source Code Pro', monospace;
+}
+.app{
+  display:flex;
+  position: relative;
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+/* track */
+::-webkit-scrollbar-track{
+  background: #e0e0e0;
+}
+/* handle */
+::-webkit-scrollbar-thumb{
+  background: #888;
+}
+/* handle hover */
+::-webkit-scrollbar-thumb:hover{
+  background: #555;
+}
